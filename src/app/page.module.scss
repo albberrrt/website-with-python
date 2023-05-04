@@ -4,9 +4,25 @@
   justify-content: center;
 
   .container {
+		margin-top: 4rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+		.form {
+			.inputContainer {
+				display: flex;
+			}
+			.errorSpan {
+				margin-left: .1rem;
+				color: #ca1735;
+			}
+		}
+
+		.input {
+			outline: none;
+			padding: .5rem 1rem;
+		}
 
     .h1 {
       font-size: 18px;

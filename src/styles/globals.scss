@@ -1,0 +1,17 @@
+@use "./Inter";
+
+body {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+html {
+  font-family: 'Inter';
+}

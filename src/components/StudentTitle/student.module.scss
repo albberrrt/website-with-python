@@ -1,0 +1,42 @@
+.ultradiv {
+  transition: all 400ms ease-in-out;
+  &:hover {
+    background-color: #f5f5f5;
+  }
+  padding: .5rem 2rem;
+}
+
+.div {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .name {
+    margin-left: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .image {
+    border-radius: 50%;
+  }
+
+}
+.class {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+@keyframes studentAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
